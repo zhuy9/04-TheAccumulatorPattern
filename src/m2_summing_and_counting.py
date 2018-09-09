@@ -96,6 +96,7 @@ def sum_more_cosines(m, n):
     for i in range(n-m+1):
         result = result + math.cos(i+m)
     return result
+
     # ------------------------------------------------------------------
     # DONE: 3. Implement and test this function.
     #   Note that you should write its TEST function first (above).
